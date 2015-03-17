@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rehome</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tabs">rehome</string>
+    <string name="title_section1">Hall</string>
+    <string name="title_section2">Bedroom</string>
+    <string name="title_section3">Kitchen</string>
+
+</resources>

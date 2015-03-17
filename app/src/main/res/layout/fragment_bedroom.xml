@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+            <Switch
+                android:id="@+id/switch11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginRight="@dimen/rightmargin"
+                android:layout_marginStart="@dimen/switchmarginleft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll1"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+            <Switch
+                android:id="@+id/switch12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginStart="@dimen/switchmarginleft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll2"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+            <Switch
+                android:id="@+id/switch13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginStart="@dimen/switchmarginleft"
+                android:textColor="@color/textcolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll3"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+            <Switch
+                android:id="@+id/switch14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginStart="@dimen/switchmarginleft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll4"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="@dimen/edittextwidth"
+
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+
+            <Switch
+                android:id="@+id/switch15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginStart="@dimen/switchmarginleft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll5"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+            <Switch
+                android:id="@+id/switch16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginStart="@dimen/switchmarginleft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll6"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+            <Switch
+                android:id="@+id/switch17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginStart="@dimen/switchmarginleft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll7"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+            <Switch
+                android:id="@+id/switch18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginStart="@dimen/switchmarginleft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll8"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+            <Switch
+                android:id="@+id/switch19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginStart="@dimen/switchmarginleft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll9"
+            android:paddingTop="@dimen/rightmargin">
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="@dimen/edittextwidth"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/textcolor" />
+
+            <Switch
+                android:id="@+id/switch20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/switchmarginleft"
+                android:layout_marginStart="@dimen/switchmarginleft" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
